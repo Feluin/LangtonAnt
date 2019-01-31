@@ -14,11 +14,25 @@ public class LangtonField
         }
     }
 
+    public Color getPosition(int x, int y) {
+        return playground[x][y];
+    }
+
+    public void flipPosition(int x, int y) {
+        playground[x][y]=playground[x][y]==Color.Black?Color.White:Color.Black;
+    }
+
     public enum Color
     {
         White, Black
     }
+    public int getHeight(){
+        return playground.length;
+    }
 
+    public int getWidth(){
+        return playground[0].length;
+    }
     public Color[][] getPlayground()
     {
         return playground;
