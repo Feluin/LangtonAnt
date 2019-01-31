@@ -10,6 +10,5 @@ public class User implements IAccess {
 
     @Override
     public void grantaccess() {
-
     }
 }
