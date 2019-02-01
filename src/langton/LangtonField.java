@@ -1,9 +1,13 @@
+package langton;
+
 public class LangtonField
 {
-    private Color[][] playground = new Color[1000][1000];
+    private Color[][] playground ;
 
-    public LangtonField()
+    public LangtonField(final int x,
+        final int y)
     {
+        playground= new Color[x][y];
         for (Color[] playgroundrow :
             playground)
         {
@@ -20,6 +24,12 @@ public class LangtonField
 
     public void flipPosition(int x, int y) {
         playground[x][y]=playground[x][y]==Color.Black?Color.White:Color.Black;
+    }
+
+    public void setFieldBlack(final int x,
+        final int y)
+    {
+        playground[x][y]=Color.Black;
     }
 
     public enum Color

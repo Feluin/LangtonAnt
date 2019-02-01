@@ -1,4 +1,4 @@
-package commands.cryptstrategys;
+package langton.cryptstrategys;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;

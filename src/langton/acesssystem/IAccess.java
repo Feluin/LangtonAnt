@@ -1,4 +1,4 @@
-package commands.acesssystem;
+package langton.acesssystem;
 
 public interface IAccess {
 

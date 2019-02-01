@@ -1,4 +1,4 @@
-package commands;
+package langton.commands;
 
 public class Configuration {
 }

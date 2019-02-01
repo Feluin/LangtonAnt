@@ -1,4 +1,4 @@
-package commands.cryptstrategys;
+package langton.cryptstrategys;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

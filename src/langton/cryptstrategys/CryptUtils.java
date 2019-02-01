@@ -1,4 +1,4 @@
-package commands.cryptstrategys;
+package langton.cryptstrategys;
 
 class CryptUtils {
     static String bytesToHex(byte[] hash) {
