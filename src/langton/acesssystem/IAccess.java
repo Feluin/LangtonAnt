@@ -1,6 +1,9 @@
 package langton.acesssystem;
 
+import langton.commands.IAntCommand;
+
 public interface IAccess {
 
-    void grantaccess();
+    void grantAccess();
+    void executeCommand(IAntCommand command);
 }

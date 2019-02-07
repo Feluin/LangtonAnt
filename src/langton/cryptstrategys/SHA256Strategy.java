@@ -7,7 +7,7 @@ import java.security.NoSuchAlgorithmException;
 public class SHA256Strategy implements ICryptStrategy {
     @Override
     public String encrypt(String password) {
-        MessageDigest digest = null;
+        MessageDigest digest;
         try {
             digest = MessageDigest.getInstance("SHA-256");
             byte[] encodedhash = digest.digest(
